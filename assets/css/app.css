@@ -1,0 +1,32 @@
+body {
+    background: #f3f6fb;
+    font-family: "Inter", Arial, sans-serif;
+}
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 0.5rem;
+}
+.metric-card {
+    border: none;
+    box-shadow: 0 10px 30px rgba(12, 45, 87, 0.08);
+}
+.login-wrap {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #08356b, #1f6bd8);
+}
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 1rem;
+}
+.report-box {
+    position: relative;
+    min-height: 250px;
+}
+.report-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    max-height: 48px;
+}
